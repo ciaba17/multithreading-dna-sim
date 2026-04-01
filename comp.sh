@@ -1,0 +1,1 @@
+g++ src/*.cpp -o main -I./headers $(pkg-config --libs --cflags raylib)
